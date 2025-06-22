@@ -1,18 +1,18 @@
 {
   "name": "onboard-me-dev",
-  "displayName": "onboard-me-dev",
+  "displayName": "Onboard-me-Dev",
   "description": "Like Clippy, but cooler. And for frontend devs.",
   "author": "Hidayt Rahman",
+  "publisher": "hidaytrahman",
+  "license": "MIT",
   "version": "0.0.2",
   "engines": {
     "vscode": "^1.101.0"
   },
   "categories": [
     "Other",
-    "Extension Packs",
-    "Web Development"
+    "Extension Packs"
   ],
-  "activationEvents": [],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
