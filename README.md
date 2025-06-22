@@ -1,51 +1,40 @@
-# onboard-me-dev README
+# Onboard-me-Dev
 
-This is the README for your extension "onboard-me-dev". After writing up a brief description, we recommend including the following sections.
+Like Clippy, but cooler. And for frontend devs.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- 🧰 **Install Frontend Essentials**: Installs recommended extensions and applies helpful settings for frontend development.
+- 👋 **Welcome Panel**: Shows a friendly welcome panel to help you get started.
+- 😂 **Tell Me a Dev Joke**: Lighten up your day with a random developer joke.
+- 🔍 **Detect Project Type**: Detects your project's framework or type to provide tailored recommendations.
 
-For example if there is an image subfolder under your extension project workspace:
+## Usage
 
-\!\[feature X\]\(images/feature-x.png\)
+After installing, open the Command Palette (`Cmd+Shift+P` on macOS, `Ctrl+Shift+P` on Windows/Linux) and search for:
+- `Onboard: Install Frontend Essentials`
+- `Onboard: Show Welcome`
+- `Onboard: Tell Me a Dev Joke`
+- `Onboard: Detect Project Type`
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+Or use the buttons in the welcome panel.
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+- VS Code v1.101.0 or higher
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+This extension does not contribute any custom settings yet.
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+No known issues. Please report bugs or feature requests on the [GitHub repository](https://github.com/hidaytrahman/onboard-me-dev).
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+### 0.0.2
+- Initial release with essential onboarding features for frontend developers.
 
 ---
 
