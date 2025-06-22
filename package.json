@@ -2,28 +2,27 @@
   "name": "onboard-me-dev",
   "displayName": "onboard-me-dev",
   "description": "Like Clippy, but cooler. And for frontend devs.",
-  "version": "0.0.1",
+  "author": "Hidayt Rahman",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.101.0"
   },
   "categories": [
-    "Other"
+    "Other",
+    "Extension Packs",
+    "Web Development"
   ],
   "activationEvents": [],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "onboard-me-dev.helloWorld",
-        "title": "Hello World"
-      },
-      {
         "command": "onboard.installEssentials",
         "title": "🧰 Install Frontend Essentials"
       },
       {
         "command": "onboard.showWelcome",
-        "title": "👋 Onboard Me, Senpai!"
+        "title": "👋 Onboard Me dev"
       },
       {
         "command": "onboard.tellJoke",
